@@ -10,4 +10,4 @@ word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
 
 if word in meme_dict.keys():
     print(meme_dict[word])
-else: "Word not found"
+else: print("Word not found")
